@@ -19,7 +19,6 @@ const [postal, setPostal] = useState('');
 
 const handleCardNumber = e => {
   const space = [4,9,14];
-  let newV;
    let value = e.target.value;
    const check = value.replace(/ /g, '');
    if (!isNaN(Number(check)) && value.length < 20) {
