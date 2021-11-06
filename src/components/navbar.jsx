@@ -7,7 +7,7 @@ const Navbar = () => {
     
     return (
         <div className='nav'>
-            <img className="logo" src={Logo}/>
+            <img alt="nck" className="logo" src={Logo}/>
             <div className="navlist">
                 {navlist.map(item => <p key={item} className='nav-item'>{item}</p>)}
                 <img className='profile' src={profile} alt='profile'/>

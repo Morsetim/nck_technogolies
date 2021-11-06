@@ -100,9 +100,9 @@ const handleKeydown = e => {
            <p>Choose your method of payment.</p>
           </div>
           <div className='logos'> 
-          <img src={Visa} alt='visa'/>
-          <img src={Discover} alt='dd' className='discover'/>
-          <img src={Paypal} alt='pp'/>
+          <img alt="visa" src={Visa} alt='visa'/>
+          <img alt="discover" src={Discover} alt='dd' className='discover'/>
+          <img alt="paypal" src={Paypal} alt='pp'/>
           </div>
        </div>
        <div className='card-wrapper'>
