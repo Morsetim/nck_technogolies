@@ -46,8 +46,6 @@ const handlePostalCode = e => {
 const handleDateChange = e => {  
    let value = e.target.value;
    if(value.trim().length > 5) return;
-
-   if(!isNaN(Number(value)))return;
   
    if(value.length === 1 && value > 1){
       setDate('0'+ value + '/') ;
@@ -71,7 +69,7 @@ if(value.length === 5 && value.substr(4, 1) > 1){
   setDate(value.substr(0,4) + 1) ;
   return;
 }
-setDate(value)
+  setDate(value)
 }
 
 const handleKeydown = e => {
